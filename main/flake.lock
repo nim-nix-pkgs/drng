@@ -1,0 +1,183 @@
+{
+  "nodes": {
+    "cpuwhat": {
+      "inputs": {
+        "cpuwhat-master": "cpuwhat-master",
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1648080983,
+        "narHash": "sha256-SFUaZWBgXM8el80zuLb5mfz2kvpGjXUJz9ZML2k7JHI=",
+        "owner": "nim-nix-pkgs",
+        "repo": "cpuwhat",
+        "rev": "3dcef43dc942ecb908df13c9f7bafade4ec322f9",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "cpuwhat",
+        "type": "github"
+      }
+    },
+    "cpuwhat-master": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "cpuwhat",
+          "flakeNimbleLib"
+        ],
+        "nimterop": "nimterop",
+        "nixpkgs": [
+          "cpuwhat",
+          "nixpkgs"
+        ],
+        "src-cpuwhat-master": "src-cpuwhat-master"
+      },
+      "locked": {
+        "dir": "master",
+        "lastModified": 1648080983,
+        "narHash": "sha256-SFUaZWBgXM8el80zuLb5mfz2kvpGjXUJz9ZML2k7JHI=",
+        "owner": "nim-nix-pkgs",
+        "repo": "cpuwhat",
+        "rev": "3dcef43dc942ecb908df13c9f7bafade4ec322f9",
+        "type": "github"
+      },
+      "original": {
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "cpuwhat",
+        "type": "github"
+      }
+    },
+    "flakeNimbleLib": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1647920574,
+        "narHash": "sha256-D3ob5QykELhyNcTnISOkjEzLlgXltwON8Ucrz5cpiQI=",
+        "owner": "riinr",
+        "repo": "nim-flakes-lib",
+        "rev": "bfb46a1f762002f07f9d81d93dacd544c6890623",
+        "type": "github"
+      },
+      "original": {
+        "owner": "riinr",
+        "ref": "master",
+        "repo": "nim-flakes-lib",
+        "type": "github"
+      }
+    },
+    "nimterop": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "cpuwhat",
+          "cpuwhat-master",
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "cpuwhat",
+          "cpuwhat-master",
+          "nixpkgs"
+        ],
+        "src-nimterop-v0_6_13": "src-nimterop-v0_6_13"
+      },
+      "locked": {
+        "dir": "v0_6_13",
+        "lastModified": 1648018461,
+        "narHash": "sha256-zNkJTLknbr9NW6P/7i4da+/s6KQf1yshtnS0bRhYxIs=",
+        "owner": "nim-nix-pkgs",
+        "repo": "nimterop",
+        "rev": "5541666b5445dcc00918bb446a0a7691e9d6b545",
+        "type": "github"
+      },
+      "original": {
+        "dir": "v0_6_13",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "nimterop",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "narHash": "sha256-sK1Ow//80EKE3bAF5d+2gB8vPXw6m5TBk3wSLHvdVe0=",
+        "path": "/nix/store/0yqgkbpmsk7ck4s34wk505sfdd9vils4-source",
+        "type": "path"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "root": {
+      "inputs": {
+        "cpuwhat": "cpuwhat",
+        "flakeNimbleLib": "flakeNimbleLib",
+        "nixpkgs": "nixpkgs",
+        "src-drng-main": "src-drng-main"
+      }
+    },
+    "src-cpuwhat-master": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1609539288,
+        "narHash": "sha256-w0zRRiOOItuhTWzmW0FciVyyB09lrm+EPIKRd2NNNYQ=",
+        "owner": "awr1",
+        "repo": "cpuwhat",
+        "rev": "a7db6be3849f5371df370be1062b7553febb20ea",
+        "type": "github"
+      },
+      "original": {
+        "owner": "awr1",
+        "ref": "refs/heads/master",
+        "repo": "cpuwhat",
+        "type": "github"
+      }
+    },
+    "src-drng-main": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1612977137,
+        "narHash": "sha256-4qv+lOBqlbQU9gI3Dr3lYNlthpCdMDrCaOUOsPk+/KQ=",
+        "owner": "rockcavera",
+        "repo": "nim-drng",
+        "rev": "9f2edbab529d1817a87fb3350dde196043e219d0",
+        "type": "github"
+      },
+      "original": {
+        "owner": "rockcavera",
+        "ref": "refs/heads/main",
+        "repo": "nim-drng",
+        "type": "github"
+      }
+    },
+    "src-nimterop-v0_6_13": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1602769737,
+        "narHash": "sha256-mOSic3rUZGluKcPdlDGMBAxzO0RsywRWceU9ng+XeLs=",
+        "owner": "genotrance",
+        "repo": "nimterop",
+        "rev": "f7cee5c983650336f93fde5d4fea087863ac0e5e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "genotrance",
+        "ref": "refs/tags/v0.6.13",
+        "repo": "nimterop",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
