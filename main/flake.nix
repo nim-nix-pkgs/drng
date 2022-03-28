@@ -11,7 +11,6 @@
   inputs.src-drng-main.ref   = "refs/heads/main";
   inputs.src-drng-main.owner = "rockcavera";
   inputs.src-drng-main.repo  = "nim-drng";
-  inputs.src-drng-main.dir   = "";
   inputs.src-drng-main.type  = "github";
   
   inputs."cpuwhat".owner = "nim-nix-pkgs";
